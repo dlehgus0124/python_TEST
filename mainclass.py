@@ -15,4 +15,9 @@ class Rabbit :
         def eatFood(self) :
             print("집토끼가 오이를 먹습니다")
 
+    class MoubtainRabbit(Rabbit):
+        mountain = ""
+        def eatWildGrass(self) :
+            print("산토끼가 풀을 뜯어먹습니다")
+
     
